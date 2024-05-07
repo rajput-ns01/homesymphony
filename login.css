@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('signup.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  /* Login Form Styles */
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency to the background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increase the shadow effect */
+    text-align: center;
+    animation: fadeIn 0.5s ease; /* Add fade-in animation */
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease; /* Add transition for border color */
+  }
+  
+  .login-form input:focus {
+    border-color: #007bff; /* Change border color on focus */
+  }
+  
+  .login-form button {
+    width: 90%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for background color */
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
+  
+  /* Animation Keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

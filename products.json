@@ -1,0 +1,144 @@
+[
+    {
+        "id": 1,
+        "name":"V-GUARD 12 Amps Voltage Stabilizer",
+        "price": 200,
+        "image": "bg1.webp",
+        "link":"bg1.html"
+    },
+    {
+        "id": 2,
+        "name":"Table Fan",
+        "price": 250,
+        "image": "bg2.webp",
+        "link":"bg2.html"
+    },
+    {
+        "id": 3,
+        "name":"Convertible 1 Ton 3 Star Inverter Split AC",
+        "price": 290,
+        "image": "bg3.webp",
+        "link":"bg3.html"
+    },
+    {
+        "id": 4,
+        "name":"Symphony 12 Litres Personal Air Cooler",
+        "price": 200,
+        "image": "bg4.webp",
+        "link":"bg4.html"
+    },
+    {
+        "id": 5,
+        "name":"morphy richards Kube 25 Litres 5 Star Storage Water Geyser",
+        "price": 300,
+        "image": "bg5.webp",
+        "link":"bg5.html"
+    },
+    {
+        "id": 6,
+        "name":"AO Smith Xpress 25 Litres 5 Star Storage Water Geyser",
+        "price": 200,
+        "image": "bg6.webp",
+        "link":"bg6.html"
+    },
+    {
+        "id": 7,
+        "name":"dyson Cool Gen1 TP10 Air Multiplie Technology Air Purifier",
+        "price": 200,
+        "image": "bg7.webp",
+        "link":"bg7.html"
+    },
+    {
+        "id": 8,
+        "name":"ECOVACS Deebot 25 Watts Robotic Vacuum Cleaner",
+        "price": 200,
+        "image": "bg8.webp",
+        "link":"bg8.html"
+    },
+    {
+        "id": 9,
+        "name":"iGear Battery Powered 5 Watt Study Lamp",
+        "price": 200,
+        "image": "bg9.webp",
+        "link":"bg9.html"
+    },
+    {
+        "id": 10,
+        "name":"O GENERAL 3 Ton Cassette Split AC",
+        "price": 250,
+        "image": "bg10.webp",
+        "link":"bg10.html"
+    },
+    {
+        "id": 11,
+        "name":"Abbittar Ceramic Vase Set of 3",
+        "price": 27.99,
+        "image": "bg11.webp",
+        "link":"bg11.html"
+    },
+    {
+        "id": 12,
+        "name":"Gold Woman face Statues Set of 3",
+        "price": 200,
+        "image": "bg12.jpg",
+        "link":"bg12.html"
+    },
+    {
+        "id": 13,
+        "name":"Family Plaque for Bedroom Living Room Decor",
+        "price": 50,
+        "image": "bg13.webp",
+        "link":"bg13.html"
+    },
+    {
+        "id": 14,
+        "name":"KREATIVE ARTS Blue Flower Canvas",
+        "price": 47,
+        "image": "bg14.webp",
+        "link":"bg14.html"
+    },
+    {
+        "id": 15,
+        "name":"Canvas Prints Wall Art Decor Large Four Seasons Tree Picture 1 Panel Spring Summer Autumn Winter Tree Painting ",
+        "price": 49,
+        "image": "bg15.webp",
+        "link":"bg15.html"
+    },
+    {
+        "id": 16,
+        "name":" Galt International Preserved Natural Boxwood in Ceramic Pot",
+        "price": 69,
+        "image": "bg16.webp",
+        "link":"bg16.html"
+    },
+    {
+        "id": 17,
+        "name":"Artificial Flowers with Vases Artificial Hydrangea Flower Arrangements",
+        "price": 29,
+        "image": "bg17.webp",
+        "link":"bg17.html"
+    },
+    {
+        "id": 18,
+        "name":"puthiac Home Decor Accents",
+        "price": 16,
+        "image": "bg18.webp",
+        "link":"bg18.html"
+    },
+    {
+        "id": 19,
+        "name":"Gold Home Decor Large Thinker Statue Accents",
+        "price": 18,
+        "image": "bg19.webp",
+        "link":"bg19.html"
+    },
+    {
+        "id": 20,
+        "name":"Heart Hands Sculpture Black Decor for Bedroom Living Room Bookshelf",
+        "price": 26,
+        "image": "bg20.jpg",
+        "link":"bg20.html"
+    }
+
+]
+

@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('signup.jpg'); 
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+  }
+  
+  /* Signup Form Styles */
+  .signup-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency to the background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increase the shadow effect */
+    text-align: center;
+    animation: fadeIn 0.5s ease; /* Add fade-in animation */
+  }
+  
+  
+  .signup-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .signup-form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease; /* Add transition for border color */
+  }
+  
+  .signup-form input:focus {
+    border-color: #007bff; /* Change border color on focus */
+  }
+  
+  .signup-form button {
+    width: 90%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for background color */
+  }
+  
+  .signup-form button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
+  .error-message {
+    color: red;
+  }
+
+ 
+  /* Animation Keyframes */
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body >
+    <div class="notification"></div>
+    <div class="container1">
+        <header>
+            <div class="title">HomeSymphony</div>
+            <div class="menu">
+                <a class="menu-toggle" href="#">
+                    <i class="fas fa-bars"></i>
+                    Menu
+                </a>
+                <div class="menu-content">
+                    <a class="signup" href="signup.html">SignUp</a>
+                    <a class="login" href="login.html">Login</a>
+                    <a class="icon-cart" href="#">
+                        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                        </svg>
+                        <span>0</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+        
+        <section class="hero">
+            <div class="container">
+                <h2>Welcome to Our Home Appliances & Decor Store</h2>
+                <p>Find the perfect appliances and decorations for your home. Browse our wide selection of kitchen gadgets, smart home devices, stylish furniture, and decorative accents.</p>
+            </div>
+        </section>
+        <section class="search">
+            <div class="container">
+                <h2>Search Products</h2>
+                <form>
+                    <input type="text" placeholder="Search for products...">
+                    <select name="category" id="category">
+                        <option value="">All Categories</option>
+                        <option value="kitchen">Kitchen</option>
+                        <option value="decor">Decor</option>
+                        <!-- Add more categories as needed -->
+                    </select>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </section>
+        <div class="listProduct">
+
+        </div>
+    </div>
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+            
+        </div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut">Check Out</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <section class="slideshow">
+        <div class="container">
+            <h2>Explore Our Collections</h2>
+            <div class="carousel">
+                <img src="collection1.jpg" alt="Collection 1">
+                <img src="collection2.jpg" alt="Collection 2">
+                <img src="collection3.jpg" alt="Collection 3">
+                <img src="collection4.jpg" alt="Collection 4">
+                <img src="collection5.jpg" alt="Collection 5">
+                <img src="collection6.jpg" alt="Collection 6">
+                <!-- Add more carousel images as needed -->
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2>About Us</h2>
+                    <p>HomeSymphony is your one-stop destination for high-quality home appliances and decor. Our mission is to provide you with the best products to enhance your living space.</p>
+                    <div class="contact">
+                        <span><i class="fas fa-phone"></i> +1 (123) 456-7890</span>
+                        <span><i class="fas fa-envelope"></i> info@homesymphony.com</span>
+                    </div>
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section quick-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="refandret.html">Refund and returns policy</a></li>
+                        <li><a href="terms.html">Terms and Conditions</a></li>
+                        <li><a href="shipping.html">Shipping and Returns</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+
+
+                    </ul>
+                </div>
+               
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 HomeSymphony. All rights reserved.
+        </div>
+    </footer>
+    
+
+</body>
+</html>
